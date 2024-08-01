@@ -1,0 +1,56 @@
+@import './_defaults.css';
+
+.dark,
+:root[class~='dark'] {
+  /* Primary */
+  @apply _primary-dark;
+  /* Slate */
+  @apply _slate-dark;
+  /* Blue */
+  @apply _blue-dark;
+  /* Red */
+  @apply _red-dark;
+  /* Orange */
+  @apply _orange-dark;
+  /* Yellow */
+  @apply _yellow-dark;
+  /* Green */
+  @apply _green-dark;
+  /* Teal */
+  @apply _teal-dark;
+  /* Indigo */
+  @apply _indigo-dark;
+  /* Purple */
+  @apply _purple-dark;
+
+  /* Text Color */
+  --color-text-primary: var(--color-slate-800);
+  --color-text-secondary: var(--color-slate-700);
+  --color-text-tertiary: var(--color-slate-600);
+  --color-text-quaternary: var(--color-slate-400);
+  --color-text-disabled: var(--color-slate-400);
+  --color-text-placeholder: var(--color-slate-600);
+
+  /* Border Color */
+  --color-border-primary: var(--color-slate-400);
+  --color-border-primary_hover: var(--color-slate-500);
+  --color-border-secondary: var(--color-slate-300);
+  --color-border-tertiary: var(--color-slate-200);
+  --color-border-disabled: var(--color-slate-300);
+  --color-border-disabled_subtle: var(--color-slate-200);
+  --color-border-brand: var(--color-primary-300);
+  --color-border-brand_solid: var(--color-primary-500);
+  --color-border-error: var(--color-red-300);
+  --color-border-error_solid: var(--color-red-500);
+
+  --color-bg-primary: var(--color-slate-50);
+  --color-bg-primary_hover: var(--color-slate-50);
+  --color-bg-primary_solid: var(--color-slate-800);
+  --color-bg-secondary: var(--color-slate-50);
+  --color-bg-secondary_hover: var(--color-slate-100);
+  --color-bg-secondary_solid: var(--color-slate-600);
+  --color-bg-tertiary: var(--color-slate-100);
+  --color-bg-quaternary: var(--color-slate-200);
+  --color-bg-disabled: var(--color-slate-100);
+  --color-bg-disabled_subtle: var(--color-slate-50);
+}

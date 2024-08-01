@@ -1,0 +1,27 @@
+{
+  "name": "under-io-tailwind",
+  "version": "1.0.0",
+  "description": "Under engineering tailwind configuration",
+  "type": "module",
+  "files": [
+    "/dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "under-io-eslint": "file:under-io-eslint-1.0.0.tgz",
+    "under-io-prettier": "file:under-io-prettier-1.0.0.tgz",
+    "vite": "^5.3.5"
+  }
+}
